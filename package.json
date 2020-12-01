@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx gulp"
+    "build": "npx gulp",
+    "scp": "scp -r ./ root@47.104.174.36:/data/static/csyw"
   },
   "author": "季汉",
   "license": "ISC",
