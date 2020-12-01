@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx gulp",
-    "scp": "scp -r ./ root@47.104.174.36:/data/static/csyw"
+    "scp": "scp -r ./ root@47.104.174.36:/data/static/csyw",
+    "gci": "git add . && git commit -a --allow-empty-message -m ''"
   },
   "author": "季汉",
   "license": "ISC",
