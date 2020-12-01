@@ -1,0 +1,9 @@
+<div class="m-snav1">
+  <div class="wp">
+      <ul>
+        <% for (var i = 0; i < data.length; i ++) { %>
+          <li class="<% if (key == data[i].key) { %> on <% } else {} %>"><a href="<%= data[i].href %>" title="<%= data[i].title %>"><%= data[i].title %></a></li>
+        <% } %>
+      </ul>
+  </div>
+</div>

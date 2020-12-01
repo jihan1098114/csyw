@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body>
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'pinwei' }); %>
+<!-- //Navigation -->
+
+<!-- Sub Navigation -->
+<%- include('common/sub_header.ejs', {
+	key: 'mendianzhanshi',
+	data: [{
+		key: 'pinwei',
+		href: 'pinwei.html',
+		title: '菜品展示'
+	},{
+		key: 'mendianxingxiang',
+		href: 'mendianxingxiang.html',
+		title: '门店形象展示'
+	},{
+		key: 'mendianzhanshi',
+		href: 'mendianzhanshi.html',
+		title: '门店展示'
+	}]
+}); %>
+<!-- //Sub Navigation -->
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body class="index">
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'index' }); %>
+<!-- //Navigation -->
+
+<!--Slider-->
+<div class="slider">
+	<div class="callbacks_container">
+		<ul class="rslides" id="slider3">
+			<li>
+				<div class="slider-img1">
+					<div class="dot">
+						<div class="container">
+							<div class="slider_banner_info_w3ls text-center">
+								<!-- <h1 class="text-uppercase">Cafe & Bar</h1> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="slider-img2">
+					<div class="dot">
+						<div class="container">
+							<div class="slider_banner_info_w3ls text-center">
+								<!-- <h2 class="text-uppercase">Restaurant</h2> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="slider-img3">
+					<div class="dot">
+						<div class="container">
+							<div class="slider_banner_info_w3ls text-center">
+								<!-- <h4 class="text-uppercase">5 Star Hotel</h4> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!--//Slider-->
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>

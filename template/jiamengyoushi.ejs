@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body>
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'zhaoshang' }); %>
+<!-- //Navigation -->
+
+<!-- Sub Navigation -->
+<%- include('common/sub_header.ejs', {
+	key: 'jiamengyoushi',
+	data: [{
+		key: 'zhaoshang',
+		href: 'zhaoshang.html',
+		title: '合作伙伴'
+	},{
+		key: 'jiamengyoushi',
+		href: 'jiamengyoushi.html',
+		title: '加盟优势'
+	}]
+}); %>
+<!-- //Sub Navigation -->
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>

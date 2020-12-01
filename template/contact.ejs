@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body>
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'contact' }); %>
+<!-- //Navigation -->
+
+<!-- Sub Navigation -->
+<%- include('common/sub_header.ejs', {
+	key: 'contact',
+	data: [{
+		key: 'contact',
+		href: 'contact.html',
+		title: '联系方式'
+	},{
+		key: 'zhaopin',
+		href: 'zhaopin.html',
+		title: '招聘信息'
+	}]
+}); %>
+<!-- //Sub Navigation -->
+
+<div class="wp">
+  <div class="m-txt1">
+      <h3 class="g-tit1">联系方式</h3>
+<p><img alt="微信图片_20191111190122.jpg" src="http://www.chibanting.com/d/file/2019-11-11/e32a8debe74a4dcb717241ce133e06e4.jpg"></p>                
+  </div>
+</div>
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>

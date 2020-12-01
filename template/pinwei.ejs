@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body>
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'pinwei' }); %>
+<!-- //Navigation -->
+
+<!-- Sub Navigation -->
+<%- include('common/sub_header.ejs', {
+	key: 'pinwei',
+	data: [{
+		key: 'pinwei',
+		href: 'pinwei.html',
+		title: '菜品展示'
+	},{
+		key: 'mendianxingxiang',
+		href: 'mendianxingxiang.html',
+		title: '门店形象展示'
+	},{
+		key: 'mendianzhanshi',
+		href: 'mendianzhanshi.html',
+		title: '门店展示'
+	}]
+}); %>
+<!-- //Sub Navigation -->
+
+<!--Food gallery-->
+<section class="banner_bottom proj py-5">
+  <div class="wrap_view">
+  <h1 class="heading text-center text-uppercase mb-5"> 菜品展示 </h1>
+    <div class="inner_sec">
+      <!-- <ul class="portfolio-categ filter">
+        <li class="port-filter all active">
+          <a href="#">All</a>
+        </li>
+        <li class="cat-item-1">
+          <a href="#" title="Category 1">Category 1</a>
+        </li>
+        <li class="cat-item-2">
+          <a href="#" title="Category 2">Category 2</a>
+        </li>
+        <li class="cat-item-3">
+          <a href="#" title="Category 3">Category 3</a>
+        </li>
+        <li class="cat-item-4">
+          <a href="#" title="Category 4">Category 4</a>
+        </li>
+      </ul>
+-->
+
+      <ul class="portfolio-area">
+
+        <li class="portfolio-item2 mb-2" data-id="id-0" data-type="cat-item-4">
+          <div>
+            <span class="image-block img-hover">
+            <a class="image-zoom" href="images/g1.jpg" rel="prettyPhoto[gallery]">
+            
+                <img src="images/g1.jpg" class="img-responsive" alt="Cafe In image">
+                <div class="port-info">
+                    <h5>刺身拼盘 <span class="text-right">-- ¥108</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-1" data-type="cat-item-2">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/g2.jpg" rel="prettyPhoto[gallery]">
+              
+                <img src="images/g2.jpg" class="img-responsive" alt="Cafe In image">
+              <div class="port-info">
+                    <h5>村上卷 <span class="text-right">-- ¥45</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-2" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/g3.jpg" rel="prettyPhoto[gallery]">
+            
+                <img src="images/g3.jpg" class="img-responsive" alt="Cafe In image">
+              <div class="port-info">
+                    <h5>肥牛饭 <span class="text-right">-- ¥38</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-3" data-type="cat-item-4">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/g4.jpg" rel="prettyPhoto[gallery]">
+              
+                <img src="images/g4.jpg" class="img-responsive" alt="Cafe In image">
+                <div class="port-info">
+                    <h5>鳗鱼饭 <span class="text-right">-- ¥43</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-4" data-type="cat-item-3">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/cf45.JPG" rel="prettyPhoto[gallery]">
+              
+                <img src="images/cf45.JPG" class="img-responsive" alt="Cafe In image">
+                <div class="port-info">
+                    <h5>海鲜炒饭 <span class="text-right">-- ¥43</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-5" data-type="cat-item-2">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/dxj19.jpg" rel="prettyPhoto[gallery]">
+              
+                <img src="images/dxj19.jpg" class="img-responsive" alt="Cafe In image">
+                <div class="port-info">
+                    <h5>芒果大虾卷 <span class="text-right">-- ¥19</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-6" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/sszh.jpg" rel="prettyPhoto[gallery]">
+            
+                <img src="images/sszh.jpg" class="img-responsive" alt="Cafe In image">
+                  <div class="port-info">
+                    <h5>寿司组合 <span class="text-right">--19$</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2 mb-2" data-id="id-7" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="images/hg.jpg" rel="prettyPhoto[gallery]">
+              
+                <img src="images/hg.jpg" class="img-responsive" alt="Cafe In image">
+                  <div class="port-info">
+                    <h5>双味牛肉火锅 <span class="text-right">--19$</span></h5>
+                    <p>Delicious Food For All</p>
+                  </div>
+            
+            </a>
+          </span>
+          </div>
+        </li>
+
+      </ul>
+      <!--end portfolio-area -->
+
+        <div class="clearfix"></div>
+    </div>
+
+  </div>
+</section>
+<!--//Food gallery-->
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>

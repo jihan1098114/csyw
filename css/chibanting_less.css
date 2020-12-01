@@ -1,0 +1,875 @@
+/*Common For Max 960*/
+@media only screen and (max-width: 1365px) {
+  /*    #banner .pic{
+          height: 100vh;
+      }*/
+
+  .nav li {
+    margin: 0 5px;
+  }
+  .nav .v1 {
+    font-size: 14px;
+  }
+  /*
+      -----------------[产品展示列表-详情1]--------------*/
+  .g-tit2 h3 {
+    line-height: 70px;
+  }
+  .m-menu .slick-prev {
+    left: 3%;
+  }
+  .m-menu .slick-next {
+    right: 3%;
+  }
+  /*
+      -----------------[招聘信息]--------------*/
+  .m-job-inf {
+    margin-right: 0;
+  }
+  .m-job-inf .sobox,
+  .m-job-inf .select {
+    margin: 0 7px;
+  }
+
+  .ul-list1 {
+    margin: 0;
+  }
+}
+
+/*Common For Max 960*/
+@media only screen and (max-width: 1199px) {
+  .wp {
+    width: 98%;
+  }
+
+  #hd {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .nav dl .d1 {
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .logo {
+    height: 60px;
+  }
+
+  #hd .lang .select {
+    top: 100%;
+  }
+
+  .menuBtn {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .logo {
+    border-right: none;
+    position: static;
+    padding: 0;
+  }
+  .nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 900;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .nav li {
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .nav .v1 {
+    line-height: 40px;
+  }
+  .nav dl {
+    position: static;
+    width: 100%;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  #hd .lang {
+    border: none;
+  }
+
+  /*    #banner .pic{
+          height: 0;
+          padding-top: 75%;
+      }*/
+  #banner .slick-dots {
+    bottom: 20px;
+  }
+
+  /*
+      -----------------[新闻详情]--------------*/
+  .m-txt2 .tit {
+    background: #eee;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  .m-txt2 h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #333;
+    padding: 10px 0;
+    margin-bottom: 11px;
+    position: relative;
+  }
+  .m-txt2 img {
+    margin-bottom: 20px;
+  }
+  .m-txt2 p {
+    padding-bottom: 10px;
+  }
+  .m-page2-1 {
+    margin-top: 0;
+  }
+
+  .m-page2 {
+    margin-bottom: 50px;
+  }
+
+  /*
+      -----------------[产品展示列表-详情1]--------------*/
+  .m-menu {
+    margin-bottom: 50px;
+  }
+  .g-tit2 {
+    line-height: 70px;
+  }
+  .g-tit2 .a-back {
+    margin-top: 17px;
+  }
+  .g-tit2 h3 {
+    font-size: 20px;
+  }
+  .m-menu .g-tit2 {
+    margin-bottom: 20px;
+  }
+  .m-menu .pic {
+    margin-top: 20px;
+  }
+
+  /*
+      -----------------[关于我们-导航弹出]--------------*/
+  .g-tit1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  .m-txt1 {
+    padding-bottom: 50px;
+  }
+  .m-txt1 .g-tit1 {
+    margin-bottom: 20px;
+  }
+
+  /*
+      -----------------[团队建设]--------------*/
+  .ul-list1 {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .ul-list1 li {
+    width: 25%;
+  }
+  .ul-list1 .con {
+    margin: 0 auto 20px;
+  }
+
+  /*
+      -----------------[店内照片]--------------*/
+  .m-tab {
+    margin: 20px 0 0;
+  }
+  .ul-list2 {
+    overflow: hidden;
+    margin: 20px 0 50px;
+  }
+
+  /*
+      -----------------[菜单展示]--------------*/
+  .ul-list3 {
+    padding: 20px 0;
+  }
+  .ul-list4 {
+    margin: 0;
+  }
+  .ul-list4 a {
+    margin: 0 5px 10px;
+  }
+
+  /*
+      -----------------[联系我们店铺地址]--------------*/
+  .m-city {
+    margin-top: 20px;
+  }
+  .ul-list6 {
+    margin: 20px 0 30px;
+  }
+  .ul-list6 li {
+    padding: 10px 130px 10px 10px;
+  }
+  .ul-list6 li .a-btn1,
+  .ul-list6 li .a-btn2 {
+    right: 10px;
+  }
+
+  /*
+      -----------------[新闻]--------------*/
+  .ul-list5 {
+    margin-bottom: 20px;
+  }
+  .ul-list5 li {
+    padding: 30px 0;
+  }
+  .ul-list5 .date {
+    width: 100px;
+    padding-right: 40px;
+  }
+  .ul-list5 .date:after {
+    right: 15px;
+  }
+  .ul-list5 .pic {
+    margin-right: 15px;
+  }
+  .ul-list5 .txt h3 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .m-pop .close,
+  .m-pop .a-prev,
+  .m-pop .a-next {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /*
+      -----------------[招聘信息]--------------*/
+  .m-job-inf {
+    margin: 20px 0;
+  }
+  .m-job-inf .sobox,
+  .m-job-inf .select {
+    margin: 0 6px;
+  }
+
+  .m-float {
+    display: none;
+  }
+
+  .m-txt1 .table {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .m-txt1 table {
+    width: 100% !important;
+    height: auto !important;
+    min-width: 470px;
+  }
+}
+
+/*Common For Max 768*/
+@media only screen and (max-width: 959px) {
+  #fd {
+    padding: 20px;
+  }
+  .fdl,
+  .fdr {
+    float: none;
+  }
+  .f-store {
+    margin-bottom: 10px;
+  }
+
+  #banner .pic img {
+    width: 55%;
+    max-width: 55%;
+    bottom: 30%;
+  }
+
+  /*
+      -----------------[中央加工运输-加工工照片]--------------*/
+  .a-back {
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .m-snav1 {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .m-snav1 ul {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .m-snav1 ul li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  .m-snav1 li a {
+    font-size: 14px;
+  }
+
+  .g-tit1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .ul-list2,
+  .ul-list2-1 {
+    margin: 30px 0;
+  }
+  .m-page2 {
+    margin-bottom: 30px;
+  }
+
+  /*
+      -----------------[新闻详情]--------------*/
+  .m-txt2 h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .m-txt2 .tit {
+    text-align: center;
+  }
+  .m-txt2 h1:after {
+    left: 50%;
+    margin-left: -20px;
+  }
+  .m-share1 {
+    text-align: center;
+  }
+  .m-share1 a {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    margin: 0 5px;
+  }
+
+  /*
+      -----------------[产品展示列表-详情1]--------------*/
+  .g-tit2 h3 {
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .m-menu {
+    margin-bottom: 20px;
+  }
+
+  /*
+      -----------------[关于我们-导航弹出]--------------*/
+  .g-tit1 {
+    font-size: 20px;
+  }
+  .m-txt1 {
+    padding-bottom: 20px;
+  }
+  .m-txt1 img {
+    margin-bottom: 10px;
+  }
+
+  /*
+      -----------------[团队建设]--------------*/
+  .ul-list1 li {
+    width: 33.33%;
+  }
+  .m-pop .close {
+    right: 0;
+  }
+
+  /*
+      -----------------[菜单展示]--------------*/
+  .ul-list3 {
+    padding: 10px 0;
+  }
+  .ul-list3 li {
+    margin: 0 10px;
+  }
+  .ul-list3 a {
+    font-size: 14px;
+  }
+  .ul-list4 li {
+    width: 33.33%;
+  }
+  .ul-list4 a p {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .m-page {
+    margin-bottom: 30px;
+  }
+
+  /*
+      -----------------[联系我们店铺地址]--------------*/
+  .m-city dl {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .m-city dl dt {
+    font-size: 14px;
+  }
+  .m-city dl dt,
+  .m-city dl dd {
+    margin-right: 25px;
+  }
+
+  .ul-list6 li {
+    padding: 10px;
+  }
+  .ul-list6 li .a-btn1,
+  .ul-list6 li .a-btn2 {
+    position: relative;
+    margin: 15px 0 0;
+  }
+  .ul-list6 .txt {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .ul-list6 .txt h3 {
+    font-size: 18px;
+    padding: 0 0 5px;
+  }
+  .ul-list6 .txt span {
+    padding: 0;
+  }
+
+  /*
+      -----------------[新闻]--------------*/
+  .ul-list5 li {
+    padding: 20px 0;
+  }
+  .ul-list5 .date {
+    width: 70px;
+    padding-right: 10px;
+  }
+  .ul-list5 .date:after {
+    display: none;
+  }
+  .ul-list5 .date em {
+    font-size: 36px;
+  }
+  .ul-list5 .txt {
+    font-size: 13px;
+  }
+  .ul-list5 .txt h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /*
+      -----------------[招聘信息]--------------*/
+  .m-job-inf {
+    height: auto;
+  }
+  .m-job-inf .sobox,
+  .m-job-inf .select {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 10px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .m-job-inf .sobox .sub {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .m-job-inf .sobox .inp {
+    height: 40px;
+    line-height: 40px;
+  }
+  .ul-list7 {
+    margin-bottom: 20px;
+  }
+  .ul-list7 li {
+    padding: 15px;
+  }
+}
+
+/*Common For Max 640*/
+@media only screen and (max-width: 639px) {
+  .nav dl {
+    display: none !important;
+  }
+
+  #banner {
+    display: none;
+  }
+  #banner-m {
+    display: block;
+  }
+}
+
+/*Common For Max 480*/
+@media only screen and (max-width: 767px) {
+  #hd .lang .select {
+    width: 100px;
+    left: -10px;
+  }
+  #hd .lang .select li {
+    padding: 0 5px;
+  }
+
+  #fd {
+    color: #fff;
+  }
+  .flink {
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+  }
+  .flink li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+  }
+  .fma {
+    float: none;
+  }
+  .fma .pic {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  .f-cont .tel {
+    float: none;
+    text-align: center;
+    padding: 10px 0 0;
+    font-size: 14px;
+  }
+  .f-cont .tel span {
+    font-size: 26px;
+  }
+  .f-copy {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .fdr {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .f-store p {
+    display: none;
+  }
+  .f-store .con {
+    margin: 0;
+    text-align: left;
+  }
+
+  .f-share {
+    text-align: left;
+  }
+  .f-share span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+  }
+  .f-share a {
+    float: none;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #banner .slick-dots li button {
+    width: 40px;
+  }
+
+  /*
+      -----------------[中央加工运输-加工工照片]--------------*/
+  .g-tit1 {
+    font-size: 18px;
+  }
+
+  .ul-list2 li {
+    width: 50%;
+  }
+  .ul-list2 a {
+    margin: 0 5px 10px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .ul-list2 a p {
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .m-page2 a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  /*
+      -----------------[新闻详情]--------------*/
+  .m-txt2 h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .m-txt2 .tit {
+    padding: 15px 0;
+    margin-bottom: 10px;
+  }
+  .m-txt2 img {
+    margin-bottom: 10px;
+  }
+
+  .m-share1 {
+    line-height: 30px;
+  }
+  .m-share1 a {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*
+      -----------------[产品展示列表-详情1]--------------*/
+  .g-tit2 h3 {
+    font-size: 16px;
+  }
+  .m-menu .g-tit2 {
+    margin-bottom: 10px;
+  }
+  .m-menu .slick-next,
+  .m-menu .slick-prev {
+    width: 40px;
+    height: 40px;
+  }
+  .a-back {
+    width: 100px;
+  }
+
+  .g-tit1 {
+    font-size: 16px;
+  }
+
+  /*
+      -----------------[团队建设]--------------*/
+  .ul-list1 li {
+    width: 50%;
+  }
+  .ul-list1 .con {
+    margin: 0 auto 20px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .m-pop .close {
+    width: 40px;
+    height: 40px;
+  }
+  .m-bio .pic {
+    float: none;
+    width: 50%;
+    margin: 0 auto 10px;
+  }
+  .m-bio .txt {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .m-bio .txt h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .m-bio .txt span {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /*
+      -----------------[菜单展示]--------------*/
+  .ul-list3 li {
+    margin: 0 5px;
+  }
+  .ul-list4 li {
+    width: 50%;
+  }
+
+  .m-page li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 3px;
+    font-size: 14px;
+  }
+
+  /*
+      -----------------[联系我们店铺地址]--------------*/
+  .ul-list6 .pic {
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .ul-list6 .txt {
+    text-align: center;
+  }
+  .ul-list6 li .a-btn1,
+  .ul-list6 li .a-btn2 {
+    margin: 15px auto 0;
+  }
+
+  /*
+      -----------------[新闻]--------------*/
+  .ul-list5 .pic {
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .ul-list5 .txt {
+    clear: both;
+    padding: 0 10px;
+  }
+  .ul-list5 .txt h3 {
+    text-align: center;
+    white-space: normal;
+  }
+  .ul-list5 .txt p {
+    margin-bottom: 10px;
+  }
+  .a-more2 {
+    margin: 0 auto;
+  }
+
+  .m-pop .a-prev,
+  .m-pop .a-next {
+    width: 40px;
+    height: 40px;
+  }
+  .m-pop .a-prev {
+    top: 41px;
+  }
+  .m-pop .a-next {
+    top: 82px;
+  }
+  .m-job-det {
+    padding: 0 10px 0;
+  }
+
+  /*
+      -----------------[招聘信息]--------------*/
+  .ul-list7 li {
+    padding: 10px;
+  }
+  .ul-list7 li a {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .a-btn2 {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .m-job-inf .sobox,
+  .m-job-inf .select {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .m-job-inf .select li a {
+    padding-left: 10px;
+  }
+}
+
+/*Common For Max 320*/
+@media only screen and (max-width: 479px) {
+  /*
+      -----------------[中央加工运输-加工工照片]--------------*/
+  .ul-list2 li {
+    float: none;
+    width: 100%;
+  }
+
+  /*
+      -----------------[团队建设]--------------*/
+  .ul-list1 .con {
+    margin: 0 5px 10px;
+    width: auto;
+    font-size: 14px;
+  }
+  /*    .ul-list1 .pic {
+          width: auto;height: 0;
+          padding-top: 146.34%;
+           position: relative; 
+      }
+      .ul-list1 .pic img{
+          display: block;width: 100%;height: 100%;
+          position: absolute;left: 0;top: 0;
+      }*/
+
+  /*
+      -----------------[菜单展示]--------------*/
+  .ul-list4 li {
+    float: none;
+    width: 100%;
+  }
+  .ul-list4 a {
+    width: 264px;
+    margin: 0 auto;
+  }
+
+  .m-page li a {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  /*
+      -----------------[联系我们店铺地址]--------------*/
+  .m-city dl {
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  .m-city dl dt {
+    float: none;
+    margin-right: 0;
+  }
+  .m-city dl dd {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+
+  /*
+   -----------------[新闻]--------------*/
+  .ul-list5 li {
+    padding: 10px 0;
+  }
+  .ul-list5 .date {
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .ul-list5 .date em {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    font-size: 30px;
+    margin-right: 5px;
+  }
+}
