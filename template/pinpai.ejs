@@ -29,44 +29,42 @@
 		key: 'xinwenzixun',
 		href: 'xinwenzixun.html',
 		title: '新闻资讯'
+	},{
+		key: 'xuanchuanpian',
+		href: 'xuanchuanpian.html',
+		title: '企业宣传片'
 	}]
 }); %>
 <!-- //Sub Navigation -->
 
+<%- include('common/story_item.ejs', { 
+	title: '品牌使命',
+	image: 'images/4.jpg',
+	desc: '成就村上每一位伙伴，实现年轻餐饮人的创业梦。'
+ }); %>
 
-<section class="aboutbottom-grids pt-5 container-fluid">
-	<div class="row">
-		<div class="col-lg-6 p-sm-5 p-3 aboutright">
-			<h3 class="mb-3">品牌宣传</h3>
-			<p class="mb-2">以奋斗者为本, 双手改变命运.</p>
-			<!-- <iframe src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-		</div>
-		<div class="col-lg-6 aboutleft">
-			<img src="images/4.jpg" alt="" class="img-fluid"/>
-		</div>
+<%- include('common/story_item.ejs', { 
+	title: '品牌使命',
+	image: 'images/4.jpg',
+	desc: '成就村上每一位伙伴，实现年轻餐饮人的创业梦。'
+ }); %>
 
-	</div>
-</section>
-<!-- //about bottom -->
-<!-- about bottom -->
-<section class="aboutbottom-grids pt-5 container-fluid">
-	<div class="row">
-		<div class="col-lg-6 aboutleft">
-			<img src="images/4.jpg" alt="" class="img-fluid"/>
-		</div>
-		<div class="col-lg-6 p-sm-5 p-3 aboutright">
-			<h3 class="mb-3">品牌前景</h3>
-			<p class="mb-2">成就村上每一位伙伴，实现年轻餐饮人的创业梦.</p>
-			<!-- <iframe src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-		</div>
-	</div>
-</section>
-<!-- about bottom -->
-<section class="aboutbottom-grids pt-5 container-fluid">
-	<div class="row">
-		<div class="col-lg-6 p-sm-5 p-3 aboutright">
-			<h3 class="mb-3">品牌视觉</h3>
-			<p class="mb-2">
+<%- include('common/story_item.ejs', { 
+	title: '品牌宣传',
+	image: 'images/4.jpg',
+	desc: 'Maecenas ac euismod eros. Aliquam a suscipit nibh. Aliquam iaculis erat porta mauris fermentum lacinia. Donec posuere a massa sit amet sagittis. Nam ut nulla a ligula dictum imperdiet nec ut mauris.'
+ }); %>
+
+<%- include('common/story_item.ejs', { 
+	title: '品牌前景',
+	image: 'images/qyry.jpg',
+	desc: '三年做到北京寿司连锁第一品牌，五年做到中国日料连锁第一品牌，十年做到走出国门，走向世界。'
+ }); %>
+
+<%- include('common/story_item.ejs', { 
+	title: '品牌视觉',
+	image: 'images/qyry.jpg',
+	desc: `<p class="mb-2">
 				<strong>2个使命：</strong><br>
 				成就村上每一位伙伴，实现年轻餐饮人的创业梦想<br>
 				寿司匠人的手作温度<br>
@@ -79,16 +77,9 @@
 				<strong>1个服务理念（3个TA,2个应）</strong><br>
 				把客人当成恋人（包容TA、宠着TA、惯着TA) 一秒钟响应，一分钟回应<br>
 				<strong>情怀：源于中国唐宋，成长于日本，励志盛于村上一屋</strong><br>
-			</p>
-			<!-- <iframe src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-		</div>
-		<div class="col-lg-6 aboutleft">
-			<img src="images/4.jpg" alt="" class="img-fluid"/>
-		</div>
+			</p>`
+ }); %>
 
-	</div>
-</section>
-<!-- //about bottom -->
 
 <!-- footer -->	
 <%- include('common/html_footer.ejs', {}); %>

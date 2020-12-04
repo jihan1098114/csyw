@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header -->
+<%- include('common/html_header.ejs', {}); %>
+<!-- //header -->
+
+<body>
+
+<!-- Navigation -->
+<%- include('common/header.ejs', { key: 'zhaoshang' }); %>
+<!-- //Navigation -->
+
+<!-- Sub Navigation -->
+<%- include('common/sub_header.ejs', {
+	key: 'jiaruwomen',
+	data: [{
+		key: 'zhaoshang',
+		href: 'zhaoshang.html',
+		title: '合作伙伴'
+	},{
+		key: 'jiamengyoushi',
+		href: 'jiamengyoushi.html',
+		title: '特许经营合作优势'
+	},{
+		key: 'jiaruwomen',
+		href: 'jiaruwomen.html',
+		title: '加入我们'
+	}]
+}); %>
+<!-- //Sub Navigation -->
+
+<div class="wp">
+	<div class="m-txt1">
+			<h3 class="g-tit1">开放特许经营合作</h3>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/1.jpg"></p>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/2.jpg"></p>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/3.jpg"></p>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/4.jpg"></p>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/5.jpg"></p>
+			<p><img style="width: 578px;height: auto;margin: auto;" alt="2018新.jpg" src="images/join/6.png"></p>
+	</div>
+</div>
+
+<!-- footer -->	
+<%- include('common/html_footer.ejs', {}); %>
+<!-- footer -->
+
+<!-- js-scripts -->		
+<%- include('common/script.ejs', {}); %>
+<!-- //js-scripts -->
+
+</body>
+</html>
