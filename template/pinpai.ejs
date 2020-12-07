@@ -37,49 +37,44 @@
 }); %>
 <!-- //Sub Navigation -->
 
-<%- include('common/story_item.ejs', { 
-	title: '品牌使命',
-	image: 'images/4.jpg',
-	desc: '成就村上每一位伙伴，实现年轻餐饮人的创业梦。'
- }); %>
+<div class="con_jrhdl con_jyln1 jyln_show" opentype="page" style="max-width: 900px;margin: 0 auto;"> 	
+	<%- include('common/haidilao_item.ejs', { 
+		title: '服务理念',
+		image: 'images/pinpai/fuwulinian.jpeg',
+		imageRight: false,
+		desc: `<p class="mb-2">
+			把客人当恋人（包容Ta.宠着Ta.惯着Ta.），<br>
+一秒钟响应，一分钟回应
+				</p>`
+	 }); %>	
 
-<%- include('common/story_item.ejs', { 
-	title: '品牌使命',
-	image: 'images/4.jpg',
-	desc: '成就村上每一位伙伴，实现年轻餐饮人的创业梦。'
- }); %>
-
-<%- include('common/story_item.ejs', { 
-	title: '品牌宣传',
-	image: 'images/4.jpg',
-	desc: 'Maecenas ac euismod eros. Aliquam a suscipit nibh. Aliquam iaculis erat porta mauris fermentum lacinia. Donec posuere a massa sit amet sagittis. Nam ut nulla a ligula dictum imperdiet nec ut mauris.'
- }); %>
-
-<%- include('common/story_item.ejs', { 
-	title: '品牌前景',
-	image: 'images/qyry.jpg',
-	desc: '三年做到北京寿司连锁第一品牌，五年做到中国日料连锁第一品牌，十年做到走出国门，走向世界。'
- }); %>
-
-<%- include('common/story_item.ejs', { 
-	title: '品牌视觉',
-	image: 'images/qyry.jpg',
+<%- include('common/haidilao_item.ejs', { 
+	title: '企业愿景',
+	image: 'images/pinpai/yuanjing.jpeg',
+	imageRight: true,
 	desc: `<p class="mb-2">
-				<strong>2个使命：</strong><br>
-				成就村上每一位伙伴，实现年轻餐饮人的创业梦想<br>
-				寿司匠人的手作温度<br>
-				<strong>1个愿景：</strong><br>
-				做中国寿司连锁第一品牌<br>
-				1个核心价值观：以奋斗者为本，双手改变命运<br>
-				<strong>2种精神</strong><br>
-				奋斗精神<br>
-				匠人精神：心心在一艺，其艺必工；心心在一职，其职必举<br>
-				<strong>1个服务理念（3个TA,2个应）</strong><br>
-				把客人当成恋人（包容TA、宠着TA、惯着TA) 一秒钟响应，一分钟回应<br>
-				<strong>情怀：源于中国唐宋，成长于日本，励志盛于村上一屋</strong><br>
+		做中国寿司连锁第一品牌
 			</p>`
- }); %>
+ }); %>	
 
+<%- include('common/haidilao_item.ejs', { 
+	title: '品牌使命',
+	image: 'images/pinpai/shiming.jpg',
+	imageRight: false,
+	desc: `<p class="mb-2">
+		成就村上每一位伙伴，实现年轻餐饮人的创业梦想
+			</p>`
+ }); %>	
+
+<%- include('common/haidilao_item.ejs', { 
+	title: '核心价值观',
+	image: 'images/pinpai/jiazhiguan.jpg',
+	imageRight: true,
+	desc: `<p class="mb-2">
+		以奋斗者为本，双手改变命运
+			</p>`
+ }); %>	
+ </div>
 
 <!-- footer -->	
 <%- include('common/html_footer.ejs', {}); %>

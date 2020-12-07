@@ -16,10 +16,6 @@
 	data: [{
 		key: 'zhaoshang',
 		href: 'zhaoshang.html',
-		title: '合作伙伴'
-	},{
-		key: 'jiamengyoushi',
-		href: 'jiamengyoushi.html',
 		title: '特许经营合作优势'
 	},{
 		key: 'jiaruwomen',
@@ -28,6 +24,86 @@
 	}]
 }); %>
 <!-- //Sub Navigation -->
+
+<div class="wp">
+	<div class="m-txt1" style="padding: 0;">
+			<h3 class="g-tit1">加盟优势</h3>
+	</div>
+
+	<div class="con_jrhdl con_jyln1 jyln_show" opentype="page" style="max-width: 900px;margin: 0 auto;padding-top: 0;"> 	
+		<%- include('common/haidilao_item.ejs', { 
+			title: '一体化供应链体系',
+			image: 'images/zhaoshang/yiqihuagongyinglian.png',
+			imageRight: false,
+			desc: `<p class="mb-2">
+				全国搭建食材加工中心<br>
+				高品质食材标准化处理<br>
+				高效完善物流配送体系<br>
+				最短时间、最快速度、最低成本，<br>
+				将原材料安全、新鲜配送到店<br>
+				确保口感如一
+					</p>`
+		 }); %>	
+	
+	<%- include('common/haidilao_item.ejs', { 
+		title: '保姆式全程售后',
+		image: 'images/zhaoshang/quanchengshouhou.png',
+		imageRight: true,
+		desc: `<p class="mb-2">
+			开业后担心没人管？<br>
+遇到问题不知如何解决？<br>
+村上一屋总部，设立单独售后团队<br>
+24h为你服务<br>
+后期经营、技术支持等问题<br>
+专人为你解决
+				</p>`
+	 }); %>	
+	
+	<%- include('common/haidilao_item.ejs', { 
+		title: '专业市场中台',
+		image: 'images/zhaoshang/zhuanyeshichangzhongtai.png',
+		imageRight: false,
+		desc: `<p class="mb-2">
+			成为你的管家<br>
+新店如何选址？开业后怎么管理？<br>
+怎么提升消费频次？节假日如何吸引更多人到店？<br>
+				</p>`
+	 }); %>	
+	
+	<%- include('common/haidilao_item.ejs', { 
+		title: '加盟前整合输出',
+		image: 'images/zhaoshang/zhengheshuchu.png',
+		imageRight: true,
+		desc: `<p class="mb-2">
+			店铺选址&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp人力资源<br>
+			财务管理&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp店铺装修<br>
+			运营管理&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp开业支持
+				</p>`
+	 }); %>	
+	 <%- include('common/haidilao_item.ejs', { 
+		title: '开业后持续赋能',
+		image: 'images/zhaoshang/chixufuneng.png',
+		imageRight: false,
+		desc: `<p class="mb-2">
+			开业活动&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp品牌活动<br>
+			广告投放&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp营销活动<br>
+			渠道活动&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp精细运营
+				</p>`
+	 }); %>	
+	 </div>
+
+	<div class="m-txt1">
+		<h3 class="g-tit1">合作伙伴</h3>
+		<div class="list3">
+			<ul>
+			<li><a href="NewsDetail.aspx?id=39"><img src="images/contact/meituan.jpg" style=" width:188px; height:80px;"></a></li>
+			<li><a href="NewsDetail.aspx?id=38"><img src="images/contact/elem.jpg" style=" width:188px; height:80px;"></a></li>
+			<li><a href="NewsDetail.aspx?id=12"><img src="images/contact/longhu.png" style=" width:188px; height:80px;"></a></li>
+			<li><a href="NewsDetail.aspx?id=11"><img src="images/contact/wanda.png" style=" width:188px; height:80px;"></a></li>
+			</ul>
+		</div>
+  </div>
+</div>
 
 <!-- footer -->	
 <%- include('common/html_footer.ejs', {}); %>

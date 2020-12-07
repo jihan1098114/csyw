@@ -682,6 +682,25 @@ input[type='button'] {
   margin: 0 auto;
 }
 
+.m-txt1 div.list3 {
+  width: 950px;
+  margin: 0 auto;
+}
+.m-txt1 div.list3 ul {
+}
+.m-txt1 div.list3 ul li {
+  width: 237px;
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+.m-txt1 div.list3 ul li a {
+}
+.m-txt1 div.list3 ul li a img {
+  width: 188px;
+  height: 80px;
+}
+
 /*
 -----------------[团队建设]--------------*/
 .ul-list1 {
