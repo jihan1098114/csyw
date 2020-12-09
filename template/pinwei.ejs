@@ -31,51 +31,72 @@
 <!-- //Sub Navigation -->
 
 <div class="wp">
-	<h3 class="g-tit1">荣誉证书</h3>
+	<h3 class="g-tit1" style="margin-bottom: 50px;">荣誉证书</h3>
 	<%- include('common/fancybox_image_list.ejs', {
+		rongyu: true,
 		data: [
 		{ 
-		href: 'images/rongyu/1.jpg',
-		title: '绿色外卖联盟品质',
-		desc: '绿色外卖联盟品质'
-	 },
-	 { 
-		href: 'images/rongyu/2.jpg',
-		title: '绿色外卖倡导品牌',
-		desc: '绿色外卖倡导品牌'
-	 },
-	 { 
-		href: 'images/rongyu/3.jpg',
-		title: '品质如e奖',
-		desc: '品质如e奖'
-	 },
-	 { 
-		href: 'images/rongyu/4.jpg',
-		title: '最受瞩目连锁餐饮',
-		desc: '最受瞩目连锁餐饮'
-	 },
-	 { 
-		href: 'images/rongyu/5.jpg',
+		href: 'images/rongyu/1_1.png',
 		title: '年度人气餐厅',
 		desc: '年度人气餐厅'
 	 },
 	 { 
-		href: 'images/rongyu/6.jpg',
-		title: '抗击疫情先进单位',
-		desc: '抗击疫情先进单位'
+		href: 'images/rongyu/1_2.png',
+		title: '绿色外卖联盟品牌',
+		desc: '绿色外卖联盟品牌'
 	 },
 	 { 
-		href: 'images/rongyu/7.jpg',
-		title: '消费者最喜爱品牌',
-		desc: '消费者最喜爱品牌'
+		href: 'images/rongyu/1_3.png',
+		title: '品质如e奖',
+		desc: '品质如e奖'
 	 },
 	 { 
-		href: 'images/rongyu/8.jpg',
-		title: '北京百强餐饮',
-		desc: '北京百强餐饮'
+		href: 'images/rongyu/1_4.png',
+		title: '金钥匙',
+		desc: '金钥匙'
 	 },
 		]
 	}); %>
+		<%- include('common/fancybox_image_list_ry.ejs', {
+			rongyu: true,
+			data: [
+			{ 
+			href: 'images/rongyu/2_1.png',
+			title: '年度人气餐厅',
+			desc: '年度人气餐厅'
+		 },
+		 { 
+			href: 'images/rongyu/2_2.png',
+			title: '抗击疫情先进单位',
+			desc: '抗击疫情先进单位'
+		 },
+		 { 
+			href: 'images/rongyu/2_3.png',
+			title: '年度领军人物',
+			desc: '年度领军人物'
+		 }
+			]
+		}); %>
+			<%- include('common/fancybox_image_list_ry.ejs', {
+				rongyu: true,
+				data: [
+				{ 
+				href: 'images/rongyu/3_1.png',
+				title: '最受瞩目连锁餐饮品牌',
+				desc: '最受瞩目连锁餐饮品牌'
+			 },
+			 { 
+				href: 'images/rongyu/3_2.png',
+				title: '北京百强餐饮',
+				desc: '北京百强餐饮'
+			 },
+			 { 
+				href: 'images/rongyu/3_3.png',
+				title: '绿色外卖倡导品牌',
+				desc: '绿色外卖倡导品牌'
+			 }
+				]
+			}); %>
 </div>
 
 <!-- footer -->	

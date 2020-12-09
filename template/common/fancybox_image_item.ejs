@@ -1,8 +1,12 @@
 <li>
   <a href="<%= href %>" data-fancybox="gallery" title="<%= title %>">
-    <div class="pic">
-      <img src="<%= href %>" alt="<%= title %>"/>
+    <div class="pic"
+    style="<% if (desc == '') { %>height: 100%;<% } else {} %>"
+    >
+      <img class="lazyload" 
+      style="<% if (desc == '') { %>height: 100%;<% } else {} %>"
+      data-src="<%= href %>" src="images/default_image.jpeg" alt="<%= title %>"/>
     </div>
-    <p><%= desc %></p>
+    <% if (desc != '') { %><p><%= desc %></p><% } else {} %>
   </a>
 </li>

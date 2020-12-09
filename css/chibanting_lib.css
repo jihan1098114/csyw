@@ -932,6 +932,16 @@ input[type='button'] {
   display: flex;
   flex-wrap: wrap;
 }
+.ul-list2.ul-rongyu {
+  overflow: hidden;
+  /* margin: 50px -7px 100px; */
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
 .ul-list2-1 {
   margin-bottom: 50px;
 }
@@ -940,6 +950,14 @@ input[type='button'] {
   width: 33.33%;
   height: 312px;
   margin-bottom: 20px;
+}
+.ul-list2.ul-rongyu li {
+  /* float: left; */
+  /* width: 33.33%; */
+  width: auto;
+  height: 312px;
+  margin-bottom: 20px;
+  margin: 0 10px;
 }
 .ul-list2 a {
   display: block;
@@ -1002,6 +1020,7 @@ input[type='button'] {
   -ms-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #fff;
 }
 
 /*

@@ -3,6 +3,6 @@ class="<% if(rongyu) { %>ul-list2 ul-rongyu<% } else { %>ul-list2<% } %>"
   style="<% if(rongyu) { %>width: 868px;margin-left: auto;margin-right: auto;<% } else {} %>"
 >
 <% for (var i = 0; i < data.length; i ++) { %>
-  <%- include('fancybox_image_item.ejs', data[i]); %>
+  <%- include('fancybox_image_item_ry.ejs', data[i]); %>
 <% } %>
 </ul>
