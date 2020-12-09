@@ -235,11 +235,15 @@
 
 /*加入海底捞*/
 .con_jrhdl { padding: 100px 0 20px; }
-.con_jrhdl_1 { padding-bottom: 50px; }
+.con_jrhdl_1 { padding-bottom: 0px; }
 .jrhdl_img { width: 540px; float: left; position: relative; }
 .jrhdl_img span { position: absolute; z-index: 1; width: 238px; height: 238px; background-size: 100%; right: -60px; bottom: -50px; }
 .jrhdl_img p { position: relative; z-index: 2; width: 100%; }
-.jrhdl_img p img { width: 100%; box-shadow: 4px 4px 27px 7px #fde8ea;  }
+.jrhdl_img p img { 
+	width: 100%; 
+	height: 270px;
+	/* box-shadow: 4px 4px 27px 7px #fde8ea;  */
+ }
 .jrhdl_js { width: 595px; float: right; padding-top: 20px; }
 .jrhdl_js h2 { height: 57px; font-size: 28px; color: #666666;  line-height: 50px; }
 .jrhdl_js div { padding-top: 30px; color: #888; line-height: 50px; font-size: 16px; text-align: justify; text-justify: inter-ideograph; }
@@ -342,8 +346,17 @@
 /*经营理念*/
 .con_jyln1 .jrhdl_img { width: 50%; float: left; position: relative; }
 .con_jyln1 .jrhdl_img a { display: block; height: 1px; position: relative; }
-.con_jyln1 .jrhdl_img p img { box-shadow: 4px 4px 27px 7px #fde8ea;  }
-.con_jyln1 .jrhdl_js { width: 48%; padding-top: 0px; }
+/* .con_jyln1 .jrhdl_img p img { box-shadow: 4px 4px 27px 7px #fde8ea;  } */
+.con_jyln1 .jrhdl_js { 
+	width: 48%; padding-top: 0px; 
+	height: 270px;
+    /* padding-top: 60px; */
+		padding-left: 60px;
+		display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
 .con_jyln1 .jrhdl_js div { padding: 10px 0 0 0; line-height: 32px; font-size: 16px; }
 .con_jyln1 .jrhdl_js div p { line-height: 34px; line-height: 32px; font-size: 16px; }
 
@@ -389,7 +402,7 @@
 
 	/*加入海底捞*/
 	.con_jrhdl { padding: 80px 0 0; }
-	.con_jrhdl_1 { padding-bottom: 50px; }
+	.con_jrhdl_1 { padding-bottom: 0px; }
 	.jrhdl_img { width: 45%; }
 	.jrhdl_js { width: 50%; padding-top: 30px; }
 	.jrhdl_js div { padding-top: 20px; font-size: 15px; }
@@ -414,7 +427,7 @@
 	.maxWidth1200 { width: 92%; }
 
 	/*加入海底捞*/
-	.con_jrhdl_1 { padding-bottom: 50px; }
+	.con_jrhdl_1 { padding-bottom: 0px; }
 	.jrhdl_img { width: 100%; float: none; }
 	.jrhdl_js { width: 100%; padding-top: 30px; float: none; }
 	.jrhdl_js div { padding-top: 20px; }
