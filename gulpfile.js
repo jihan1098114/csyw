@@ -5,9 +5,13 @@ var imagemin = require('gulp-imagemin')
 
 
 gulp.task('image', function() {
-  return gulp.src('images/**/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('images'))
+  return gulp.src('images/xinwen/*')
+        .pipe(imagemin([
+          imagemin.gifsicle({interlaced: true}),
+          imagemin.mozjpeg({quality: 75, progressive: true}),
+          imagemin.optipng({optimizationLevel: 5}),
+        ]))
+        .pipe(gulp.dest('images/xinwen'))
 });
 
 gulp.task('default', function() {

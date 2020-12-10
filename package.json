@@ -16,6 +16,7 @@
   "author": "季汉",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
     "gulp": "^4.0.2",
     "gulp-file-include": "^2.2.2"
   },
