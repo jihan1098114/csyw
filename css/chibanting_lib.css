@@ -985,7 +985,9 @@ input[type='button'] {
   /* height: 0; */
   /* padding-top: 60.93%; */
   /* flex-grow: 1; */
-  height: 252px;
+  height: 289px;
+  width: 100%;
+  background: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -995,6 +997,7 @@ input[type='button'] {
   max-height: 100%;
   width: auto;
   height: auto;
+  margin: auto;
   /* position: absolute;
   left: 0;
   top: 0; */
