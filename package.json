@@ -18,7 +18,10 @@
   "dependencies": {
     "axios": "^0.21.0",
     "gulp": "^4.0.2",
-    "gulp-file-include": "^2.2.2"
+    "gulp-file-include": "^2.2.2",
+    "koa": "^2.13.0",
+    "koa-proxy": "^1.0.0-alpha.3",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
     "glob": "^7.1.6",

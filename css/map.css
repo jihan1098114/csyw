@@ -1,0 +1,475 @@
+.waringTXT {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  text-indent: 1em;
+  line-height: 30px;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+#BMapLib_bubble_title0 a,
+.dhbut {
+  display: inline-block;
+  background: #e60012;
+  border-radius: 5px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  padding: 3px 10px;
+}
+.ui_city_change_top {
+  left: -10px;
+  top: 53px;
+}
+
+.BMap_CityListCtrl .citylist_popup_main {
+  left: -10px;
+  top: 53px;
+}
+
+#map img {
+  max-width: none;
+  max-height: none;
+}
+
+.easysite-map-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.easysite-baidu-map {
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.mapBox {
+  width: 1590px;
+  position: relative;
+  left: 0;
+}
+
+.mapBox #mapInfoDiv {
+  float: left;
+  width: 390px;
+}
+
+.mapBox #mapInfoDiv.hide {
+  display: block;
+}
+
+.easysite-map-wrap .LeftAnimate {
+  left: -390px;
+}
+
+.mapBox .map_R {
+  width: 1200px;
+  float: left;
+  position: relative;
+}
+
+.mapBox .map_R .zk {
+  display: block;
+  width: 25px;
+  height: 55px;
+  border: 1px solid #ccc;
+  border-left: none;
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  margin-top: -27px;
+  background: #fff;
+}
+
+.mapBox .map_R .zk i {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(http:/zh/uiFramework/commonResource/image/2019080110170370068.png)
+    no-repeat center center;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.mapBox .map_R .on i {
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+
+.easysite-map-list {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.map_l_list {
+  float: left;
+}
+
+.formSs {
+  float: right;
+}
+
+#address-search-div {
+  background: #e5091b;
+  border-radius: 9px 9px 0 0;
+  padding: 1em;
+}
+@media only screen and (max-width: 1400px) {
+  #address-search-div {
+    padding-right: 90px;
+  }
+}
+#leftMapDotInfo {
+  height: 574px;
+  overflow-y: scroll;
+}
+
+.map_l_list * {
+  font-size: 14px;
+  color: #fff;
+  line-height: 31px;
+}
+
+.map_l_list .box {
+  margin-top: 5px;
+}
+
+.map_l_list img {
+  margin-right: 1em;
+}
+
+#leftMapDotInfo li {
+  padding: 1em;
+  padding-top: 0;
+  position: relative;
+  border-bottom: 1px dashed #ccc;
+}
+
+#leftMapDotInfo li .easysite-map-info-detail {
+  padding-left: 40px;
+}
+
+#leftMapDotInfo li i {
+  display: block;
+  width: 21px;
+  height: 28px;
+  background: url(https://www.haidilao.com/eportalapp/images/address-list-icon24.png)
+    no-repeat center center;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  font-style: normal;
+}
+
+#leftMapDotInfo li .easysite-map-info-detail a {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+#leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-dotBrief,
+#leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-distance,
+#leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-address {
+  font-size: 14px;
+  color: #999;
+  margin: 10px auto;
+}
+
+#leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-tel {
+  font-size: 14px;
+  color: #999;
+  word-wrap: break-word;
+}
+
+#leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-tel img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.mapBox #mapInfoDiv .bg {
+  padding: 1em 0;
+  background: #fff;
+  border-right: 1px solid #ccc;
+}
+
+#noShop {
+  font-size: 16px;
+  color: #e5091b;
+}
+
+.formSs {
+  background: #fff;
+  border: none;
+}
+
+.formSs .sousuokuang .guojiaChoose {
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+  position: relative;
+}
+
+.formSs .sousuokuang .shurukuangBtn {
+  float: left;
+}
+
+.formSs .sousuokuang .guojiaChoose .btn_Click {
+  background: url(http://zh/uiFramework/commonResource/image/2019080113213266207.png)
+    no-repeat right center;
+}
+
+.formSs .sousuokuang .guojiaChoose .btn_Click input {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  height: 20px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #e5091b;
+  font-size: 14px;
+}
+
+.formSs .sousuokuang .shurukuangBtn #queryInfo {
+  border: none;
+  height: 20px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+.formSs .sousuokuang .shurukuangBtn #queryButton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: url(http://zh/uiFramework/commonResource/image/2019080113493254164.png)
+    no-repeat center center;
+  cursor: pointer;
+}
+
+.formSs .sousuokuang .shurukuangBtn #queryInfo,
+.formSs .sousuokuang .shurukuangBtn #queryButton {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.formSs .sousuokuang .guojiaChoose .siderbOX {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  z-index: 80;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.formSs .sousuokuang .guojiaChoose .siderbOX li {
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.formSs .sousuokuang .guojiaChoose .siderbOX li:hover {
+  background: #ccc;
+}
+
+#bodyContainer {
+  margin-top: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.dituXiaLa {
+  display: none;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background: #e5091b;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dituXiaLa img {
+  width: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .waringTXT {
+    position: absolute;
+    width: 80.6%;
+    left: 10%;
+    top: 64px;
+    z-index: 5;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  .waringTXT span {
+    display: block;
+    padding: 6px;
+  }
+
+  .formSs .sousuokuang .guojiaChoose {
+    width: 80px;
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  #map {
+    height: 560px;
+  }
+  .formSs .sousuokuang .guojiaChoose .btn_Click input {
+    text-align: left;
+  }
+
+  #bodyContainer {
+    position: relative;
+  }
+
+  .map_l_list {
+    display: none;
+  }
+
+  .formSs {
+    float: none;
+    width: auto;
+  }
+
+  .formSs .sousuokuang .shurukuangBtn {
+    width: calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+    width: -o-calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -ms-calc(100% - 90px);
+  }
+
+  .formSs .sousuokuang .shurukuangBtn #queryInfo {
+    width: calc(100% - 45px);
+    width: -webkit-calc(100% - 45px);
+    width: -o-calc(100% - 45px);
+    width: -moz-calc(100% - 45px);
+    width: -ms-calc(100% - 45px);
+  }
+
+  #address-search-div {
+    padding: 1px;
+    background: #fff;
+    border: 1px solid #e5091b;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    left: 10%;
+    top: 20px;
+    z-index: 8888;
+    width: 80%;
+  }
+
+  .mapBox .map_R .zk {
+    display: none;
+  }
+
+  .dituXiaLa {
+    display: block;
+  }
+
+  .sousuokuang {
+    width: calc(100% - 45px);
+    width: -webkit-calc(100% - 45px);
+    width: -o-calc(100% - 45px);
+    width: -moz-calc(100% - 45px);
+    width: -ms-calc(100% - 45px);
+    float: left;
+  }
+
+  .mapBox {
+    width: 100%;
+    left: 0;
+  }
+
+  .mapBox #mapInfoDiv,
+  .mapBox .map_R {
+    float: none;
+    width: 100%;
+  }
+
+  #leftMapDotInfo {
+    height: 362px;
+    overflow-x: hidden;
+  }
+
+  .mapBox #mapInfoDiv {
+    display: none;
+    width: 80.6%;
+    position: absolute;
+    left: 10%;
+    top: 64px;
+    z-index: 80;
+  }
+
+  #leftMapDotInfo li .easysite-map-info-detail a {
+    font-size: 1.6rem;
+  }
+
+  #leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-address {
+    margin: 5px 0;
+  }
+
+  #leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-tel img {
+    display: none;
+  }
+
+  #leftMapDotInfo li .easysite-map-info-detail .easysite-map-list-tel {
+    padding-left: 24px;
+    min-height: 25px;
+    background: url(http://zh/uiFramework/commonResource/image/2019071215073758682.png)
+      no-repeat 0 2px;
+  }
+
+  .easysite-map-wrap .LeftAnimate {
+    left: 0;
+  }
+
+  .mapBox #mapInfoDiv {
+    top: 65px;
+  }
+
+  .mapBox #mapInfoDiv.hide {
+    display: block;
+  }
+
+  #bodyContainer {
+    margin-top: 2em;
+  }
+
+  .erjiPage {
+    padding-bottom: 2em !important;
+  }
+
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    font-size: 0em;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+}
