@@ -13,14 +13,13 @@ async function getLocaltion(address) {
   return response.data.result.location;
 }
 
-locations.forEach(location => {});
 (async () => {
   const res = [];
   for await (const location of locations) {
-    var { lng, lat } = await getLocaltion(location.localtion);
+    var { lng, lat } = await getLocaltion(location.name);
     res.push({
       name: location.name,
-      address: location.localtion,
+      address: location.address,
       tel: location.tel,
       lng,
       lat,
