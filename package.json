@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx gulp",
     "scp": "scp -r ./ root@47.104.174.36:/data/static/csyw",
+    "am": "git add . && git commit -a --allow-empty-message -m '' ",
     "push": "git add . && git commit -a --allow-empty-message -m '' && git push origin master",
     "rsync": "rsync -av --recursive --exclude 'node_modules/*' ./* root@47.104.174.36:/data/static/csyw"
   },
